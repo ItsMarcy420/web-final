@@ -26,7 +26,7 @@ $(function(){
 });
 $(function(){
     $(window).scroll(function() {
-        if ( $(this).scrollTop() > 500){
+        if ( $(this).scrollTop() > 600){
             $('#p1-intro-2').fadeIn("slow");
         } else {
             $('#p1-intro-2').fadeOut("slow");
@@ -35,7 +35,7 @@ $(function(){
 });
 $(function(){
     $(window).scroll(function() {
-        if ( $(this).scrollTop() > 1400){
+        if ( $(this).scrollTop() > 800){
             $('#p1-intro-3').fadeIn("slow");
         } else {
             $('#p1-intro-3').fadeOut("slow");
@@ -44,7 +44,7 @@ $(function(){
 });
 $(function(){
     $(window).scroll(function() {
-        if ( $(this).scrollTop() > 1900){
+        if ( $(this).scrollTop() > 1000){
             $('#p1-intro-4').fadeIn("slow");
         } else {
             $('#p1-intro-4').fadeOut("slow");
@@ -53,7 +53,7 @@ $(function(){
 });
 $(function(){
     $(window).scroll(function() {
-        if ( $(this).scrollTop() > 2000){
+        if ( $(this).scrollTop() > 1200){
             $('#p1-intro-5').fadeIn("slow");
         } else {
             $('#p1-intro-5').fadeOut("slow");
@@ -62,7 +62,7 @@ $(function(){
 });
 $(function(){
     $(window).scroll(function() {
-        if ( $(this).scrollTop() > 2000){
+        if ( $(this).scrollTop() > 1400){
             $('#p1-footer').fadeIn("slow");
         } else {
             $('#p1-footer').fadeOut("slow");
@@ -71,7 +71,7 @@ $(function(){
 });
 $(function(){
     $(window).scroll(function() {
-        if ( $(this).scrollTop() > 3100){
+        if ( $(this).scrollTop() > 1600){
             $('#p1-footer-icon-1').slideDown("1000");
             $('#p1-footer-icon-2').slideDown("2000");
             $('#p1-footer-icon-3').slideDown("3000");
