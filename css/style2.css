@@ -1,0 +1,156 @@
+html{
+	width: 100%;
+}
+.container-fluid{
+    /* nav */
+	opacity: 50%;
+	background:radial-gradient(circle farthest-corner at left,blue,purple);
+}
+.container{
+	/* background-color: cornflowerblue; */
+}
+.logo{
+	border-radius: 15px;
+}
+.B{
+	font-size: 25px;
+	font-weight: bolder;
+	color: #ffffff;
+	margin-left: 30px;
+}
+.C{
+	font-size: 25px;
+	font-weight: bolder;
+	color: #ffffff;
+	margin-left: 30px;
+}
+.banner-box{
+	padding-bottom: 30px;
+
+	background-image:linear-gradient(to bottom,pink,cornflowerblue);
+}
+.banner{
+	justify-items: center;
+}
+.top-title{
+	margin-top: 20px;
+}
+.line{
+	border-color:#ffffff;
+}
+.title {
+	font-size:30px;
+	font-weight: bold;
+}
+.title_line {
+	border-color:#ffffff;
+	margin-bottom: 50px;
+}
+.box{
+	padding: 15px;
+	border-radius: 15px;
+	background-color: rgba(92, 16, 163, 0.341);
+}
+.banner-pic{
+	border-radius: 15px;
+}
+.story {
+	padding: 50px 0;
+	font-size: 20px;
+	font-weight: bold;
+	color: #ffffff;
+}
+.story span {
+	font-size: 25px;
+	display: block;
+	margin-bottom: 10px;
+	font-weight: bolder;
+	color: #ffffff;
+}
+.product {
+	background-image:linear-gradient(to bottom,cornflowerblue,pink);
+	padding-bottom:35px;
+}
+.product .card {
+	padding: 20px 10px;
+	/* margin-bottom: 10px; */
+
+	background-color: #6070d8ab;
+}
+.product img {
+	width:100%;
+	margin-bottom:20px;
+}
+.product img:hover {
+	opacity: 0.8;
+	/* transform: scale(1.1,1.1); */
+}
+.product2 {
+	background-image:linear-gradient(to bottom,pink,cornflowerblue);
+	padding-bottom:35px;
+}
+.product2 .card {
+	padding: 20px 10px;
+	/* margin-bottom: 10px; */
+
+	background-color: #6070d8ab;
+}
+.product2 img {
+	width:100%;
+	margin-bottom:20px;
+}
+.product2 img:hover {
+	opacity: 0.8;
+}
+
+.product_name {
+	display: flex;
+	color: #ffffff;
+	font-weight: bold;
+	justify-content: center;
+}
+.product-img{
+	border-radius: 15px;
+}
+.link{
+	text-decoration: none;
+}
+
+/* footer */
+footer {
+	background-image:linear-gradient(to bottom,cornflowerblue,pink); 
+	padding:20px 0; 
+	padding-bottom: 60px;
+	color: #ffffff;
+}
+.footer-line{
+	display: flex;
+	justify-content: center;
+	border-color:#ffffff;
+}
+.contact-icon{
+	text-decoration: none;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.icon-box{
+	margin-bottom: 20px;
+}
+
+/* back to top */
+#gotop {
+    display: none;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;    
+    padding: 10px 15px;    
+    font-size: 20px;
+	border-radius: 50px;
+    background: rgba(92, 16, 163, 0.341);
+    color: white;
+    cursor: pointer;
+}
+::selection {
+	color:rgb(92, 16, 163);
+	background: white;
+}

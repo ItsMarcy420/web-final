@@ -1,0 +1,152 @@
+html{
+	width: 100%;
+}
+.container-fluid{
+    /* nav */
+	opacity: 50%;
+	background:radial-gradient(circle farthest-corner at left,#0000ff,#800080);
+}
+.container{
+    /* background-color: cornflowerblue; */
+}
+.logo{
+	border-radius: 15px;
+}
+.B{
+	font-size: 25px;
+	font-weight: bolder;
+	color: #ffffff;
+	margin-left: 30px;
+}
+.C{
+	font-size: 25px;
+	font-weight: bolder;
+	color: #ffffff;
+	margin-left: 30px;
+}
+p{
+	color: #ffffff;
+}
+.title_line {
+	width: 100%;
+	border-color:#ffffff;
+	margin-bottom: 30px;
+}
+.card-author{
+}
+.card-author img:hover {
+	opacity: 0.8;
+}
+.card-author-pic{
+	width: 100%;
+	border-radius: 15px;
+}
+.author-box{
+	padding-top: 30px;
+	background-image:linear-gradient(to bottom,pink,cornflowerblue);
+}
+.text-box{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.card{
+	/* padding: 20px 10px; */
+	/* margin-bottom: 10px; */
+	padding-top: 5px;
+	background-color: #6070d8ab;
+}
+.author-intro{
+	color: #ffffff;
+	font-size: 15px;
+	font-weight: bold;
+	position: relative;
+}
+.author-title{
+	font-weight: bolder;
+	font-size: 25px;
+}
+
+.product-box{
+	background-image:linear-gradient(to bottom,cornflowerblue,pink);
+}
+.product-circle{
+	transform: scale(1,1);
+	transition: all 0.2s ease-out;
+	
+	padding-top: 5px;
+	margin-bottom: 10px;
+	border-radius: 50px;
+	
+	background-color: #6070d8ab;
+}
+.product-circle:hover{
+	transform: scale(1.1,1.1);
+}
+.product-circle-img{
+	width: 100%;
+	border-radius: 50px;
+}
+.product-circle-name{
+	font-weight: bold;
+	padding-top: 10px;
+}
+.product-circle-content{
+	display: block;
+}
+.product{
+	transform: scale(1,1);
+	transition: all 0.2s ease-out;
+}
+.product:hover{
+	transform: scale(1.1,1.1);
+}
+.product-img{
+	width: 100%;
+	border-radius: 15px;
+}
+.product-name{
+	font-weight: bold;
+	padding-top: 10px;
+}
+.product-content{
+	display: block;
+}
+
+/* footer */
+footer {
+	background-image:linear-gradient(to bottom,pink,cornflowerblue); 
+	padding:20px 0; 
+	padding-bottom: 60px;
+	color: #ffffff;
+}
+.footer-line{
+	display: flex;
+	justify-content: center;
+	border-color:#ffffff;
+}
+.contact-icon{
+	text-decoration: none;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.icon-box{
+	margin-bottom: 20px;
+}
+
+/* back to top */
+#gotop {
+    display: none;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;    
+    padding: 10px 15px;    
+    font-size: 20px;
+	border-radius: 50px;
+    background: #5c10a357;
+    color: white;
+    cursor: pointer;
+}
+::selection {
+	color:rgb(92, 16, 163);
+	background: white;
+}
