@@ -262,7 +262,7 @@ $(document).ready(function(){
 
 $(function(){
     $(window).scroll(function() {
-        if ( $(this).scrollTop() > 2500){
+        if ( $(this).scrollTop() > 2200){
             $('#p3-footer-icon-1').slideDown("1000");
             $('#p3-footer-icon-2').slideDown("2000");
             $('#p3-footer-icon-3').slideDown("3000");
