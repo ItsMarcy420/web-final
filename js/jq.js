@@ -13,6 +13,12 @@ $(function(){
         }
     });
 });
+// menu
+$(function(){
+    $(".navbar-toggle").on("click", function () {
+        $(this).toggleClass("active");
+    });
+});
 
 // page 1 
 // $(function(){
@@ -274,4 +280,10 @@ $(function(){
             $('#p3-footer-p').fadeOut("slow");
         }
     });
+});
+
+$(document).ready(function(){
+	$('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function(){
+		$(this).toggleClass('open');
+	});
 });
